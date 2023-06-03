@@ -20,6 +20,9 @@
     <item
         android:id="@+id/id1006"
         android:title="Add a book" />
+    <item
+        android:id="@+id/id1007"
+        android:title="Goals" />
 
 
 

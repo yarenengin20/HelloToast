@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +8,7 @@
     tools:context=".addbookpage">
 
 <RelativeLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
+    android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".addbookpage">
 
@@ -39,15 +38,16 @@ tools:context=".addbookpage">
 </LinearLayout>
 
 <!--recycler view for displaying our list of books-->
-<androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/idRVBooks"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@id/idLLsearch"
-    />
 
-<!--progressbar for displaying our loading indicator-->
-<ProgressBar
+    <!--progressbar for displaying our loading indicator-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVBooks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idLLsearch"
+        android:layout_marginTop="0dp" />
+
+    <ProgressBar
     android:id="@+id/idLoadingPB"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
