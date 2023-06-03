@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/lilac"
+    android:background="@color/smail"
     android:onClick="signuppage"
     tools:context=".loginpage"
     >
@@ -58,18 +58,17 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.228" />
             <EditText
-                android:id="@+id/editTextTextEmailAddress2"
+                android:id="@+id/login_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="44dp"
                 android:ems="10"
                 android:fontFamily="@font/abel"
-                android:inputType="textEmailAddress"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/custom_edittext"
                 android:backgroundTint="@color/lmailpink"
-                android:hint="E-mail"
+                android:hint="username"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"
                 android:padding="8dp"
@@ -79,7 +78,7 @@
 
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/login_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -98,12 +97,13 @@
                 app:layout_constraintStart_toStartOf="@+id/textView5"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/login_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/signupbeige"
                 android:fontFamily="@font/abel"
-                android:text="ENTER"
+                android:text="Log ın"
+                android:onClick="toprofile"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -119,12 +119,12 @@
 
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/signupRedirectText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="32dp"
+                android:layout_marginBottom="15dp"
                 android:fontFamily="@font/abel"
-                android:text="Don't you have an account?"
+                android:text="Don't have an account?"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/black"
                 android:textSize="12sp"
