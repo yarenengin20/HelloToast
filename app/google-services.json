@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868472104146",
+    "project_id": "hello-toast-cbe3d",
+    "storage_bucket": "hello-toast-cbe3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868472104146:android:967bad822cd86a6759b90b",
+        "android_client_info": {
+          "package_name": "com.example.hellotoast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868472104146-or52m805uvvva7pj1olnjor7qo3kqmaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgSf4YSfAkKhAslbC5BoDrjM-dIJqL--I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868472104146-or52m805uvvva7pj1olnjor7qo3kqmaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

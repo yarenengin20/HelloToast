@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id1001"
+        android:title="Profile" />
+    <item
+        android:id="@+id/id1002"
+        android:title="Continue Reading" />
+    <item
+        android:id="@+id/id1003"
+        android:title="Finished Books" />
+    <item
+        android:id="@+id/id1004"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/id1005"
+        android:title="Stopwatch" />
+    <item
+        android:id="@+id/id1006"
+        android:title="Add a book" />
+
+
+
+</menu>
