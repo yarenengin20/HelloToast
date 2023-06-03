@@ -8,6 +8,7 @@
     android:background="#268D9C" >
 
 
+
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -37,20 +38,8 @@
         tools:ignore="UnknownId" />
 
 
-    <ImageView
-        android:id="@+id/profilePhotoImageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:clickable="true"
-        android:onClick="selectProfilePhoto"
-        android:scaleType="centerCrop"
-        android:src="@drawable/baseline_camera_alt_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+
+
 
     <Button
         android:id="@+id/button6"

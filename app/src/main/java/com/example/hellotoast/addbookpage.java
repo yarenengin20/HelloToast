@@ -1,8 +1,5 @@
 package com.example.hellotoast;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -84,7 +81,7 @@ public class addbookpage extends AppCompatActivity {
         // below is the url for getting data from API in json format.
         String url = "https://www.googleapis.com/books/v1/volumes?q=" + query;
 
-        // below line we are  creating a new request queue.
+        // below line we are creating a new request queue.
         RequestQueue queue = Volley.newRequestQueue(addbookpage.this);
 
 
@@ -158,16 +155,4 @@ public class addbookpage extends AppCompatActivity {
         // request in our request queue.
         queue.add(booksObjrequest);
     }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.id1006:
-                Intent i = new Intent(this, addbookpage.class);
-                this.startActivity(i);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 }
-
